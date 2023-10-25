@@ -27,7 +27,7 @@ class Shop {
         } else if (item.name === 'Backstage passes to a TAFKAL80ETC concert') {
           this.updateBackstagePassQuality(item);
         } else if (item.name === 'Sulfuras, Hand of Ragnaros') {
-          // Legendary item, do nothing
+          //Se mantiene igual, segun el enunciado, no se hace nada
         } else if (item.name === 'Conjured Mana Cake') {
             this.updateConjuredQuality(item);
         } else {
